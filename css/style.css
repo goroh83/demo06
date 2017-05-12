@@ -1,12 +1,13 @@
-html {
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Muli', sans-serif;
     font-size: 14px;
     letter-spacing: 0.15em;
-    color: #177ec3;
+    color: #384653;
     font-weight: 400;
     margin: 20px;
     background: #f1f1f1;
@@ -19,7 +20,7 @@ body {
     position: relative;
 }
 a {
-    color: #177ec3;
+    color: #384653;
     text-decoration: none;
     font-size: 16p;
 }
@@ -27,10 +28,10 @@ a:hover {
     color: #275992;
 }
 a:visited {
-    color: #177ec3;
+    color: #384653;
 }
 a:active {
-    color: #177ec3;
+    color: #384653;
 }
 
 /* HEADER style -------------------------------------------------*/
