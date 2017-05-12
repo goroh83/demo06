@@ -6,8 +6,8 @@
 }
 
 body {
-    font-family: 'Muli', sans-serif;
-    font-size: 14px;
+    font-family: 'Playfair', serif;
+    font-size: 62.5%;
     letter-spacing: 0.15em;
     color: #384653;
     font-weight: 400;
@@ -59,6 +59,9 @@ header {
     top: 22px;
     left: 22px;
     z-index: 1;
+    padding: 3px 3px 0 5px;
+    border: solid 1px #f2d553;
+    border-radius: 3px;
 }
 .page a.logo .logo-img {
     height: 53px;
@@ -69,14 +72,17 @@ header {
 }
 .page .logo .logo-img:hover {
     transform: rotate(360deg);
-    height: 60px;
+    height: 65px;
     width: auto;
 }
 .page a.menu {
     position: absolute;
     z-index: 1;
-    top: 30px;
-    right: 30px;
+    top: 22px;
+    right: 22px;
+    padding: 5px 3px 2px 5px;
+    border: solid 1px #f2d553;
+    border-radius: 3px;
 }
 .page .menu .menu-img {
     height: 40px;
@@ -88,14 +94,15 @@ header {
     width: auto;
 }
 nav ul {
-        z-index: 1;
+    z-index: 1;
     position: absolute;
-    top: 25px;
-    right: 80px;
+    top: 27px;
+    right: 75px;
     list-style-type: none;
 }
 nav ul {
     display: none;
+    padding-top: 10px;
 }
 
 .open {
@@ -104,22 +111,28 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 15px;
+    font-size: 1.6em;
+    font-weight: 400;
+    font-family: 'Playfair', serif;
 }
 
 nav ul li:before {
-    content: " | ";
+    content: "| ";
+    color: #f2d553;
 }
 
 
 
 p.banner::before {
     content: "";
-    color: red;
-    height: 3px;
+    display: inline-block;
+    border: .3px double #f2d553;
     position:absolute;
-    width: 100px;
-        top: 22px;
+    width: 70%;
+    text-align: center;
+    top: 22px;
+    margin-left: 50px;
     left: 22px;
 }
 
